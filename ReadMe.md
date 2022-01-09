@@ -14,6 +14,9 @@ brew upgrade
 brew install python@3.9
 python3.9 -m venv venv
 source venv/bin/activate
-
 pip install --upgrade pip
+
+# Clone the repo
+git clone git@github.com:DeNovaLux/projectDentAI.git
+pip install -r requirements.txt
 ```
